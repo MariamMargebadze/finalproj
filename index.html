@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/3421428d97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -13,16 +14,43 @@
 <body>
     <div class="container">
         <header>
-            <img src="images/logo plant.svg" alt="">
-            <form action="/send_form.js">
-                <input class="search_bar" type="text" placeholder="What are you looking for?" name="submit">
-                <button type="submit">send</button>
+            <a href=""><img src="images/logo plant.svg" alt="">
+            </a>
+            <form action="" class="header_search">
+                <input class="search_bar" type="search" placeholder="What are you looking for?" name="submit" >
+                <button class="search_button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></i></button>
+            </form>
+            <div>
+                <button>LOG IN</button>
+                <button><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </header>
+        <section>
+            <form class="section_form" action="">
+                <input type="name" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <p>I have a delivery question about my order</p>
+
+                <div class="section_div">
+                    <label for="first">I did not receive my order</label>
+                    <input type="radio" id="first">
+                    <label for="second">My order is incorrect or arrived damaged</label>
+                    <input type="radio" id="second">
+                    <label for="third">Cancel my order</label>
+                    <input type="radio" id="third">
+                    <label for="fourth">Change my shipping address</label>
+                    <input type="radio" id="fourth">
+                </div>
+
+
+
+
+
 
 
 
             </form>
-            
-        </header>
+        </section>
 
 
 
