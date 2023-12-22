@@ -1,4 +1,7 @@
 @media (max-width:990px){
+    header{
+        padding: 34px 40px;
+    }
     .header_search{
         display: none;
     }
@@ -21,12 +24,40 @@
         padding: 48px 70px;
         width: 580px;
     }
+
 }
 @media (max-width:620px){
+    header{
+        padding: 34px 8px;
+    }
     .section_form{
         padding: 48px 30px;
         width: 510px;
     }
+    .login_button{
+        display: none;
+    }
+    .user_icon{
+        display: block;
+        background-color: transparent;
+        color: #FFFFFF;
+        display: flex;
+        width: 32px;
+        height: 32px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #F30AEA;
+    }
+    .cart{
+        width: 32px;
+        height: 32px;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #F30AEA;
+    }
+
 }
 
 @media (max-width:610px){
