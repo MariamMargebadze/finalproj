@@ -45,6 +45,16 @@ header{
     /* background: rgba(28, 19, 37, 0.80); */
     backdrop-filter: blur(5px);
 }
+.login_button{
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    display: flex;
+    width: 84px;
+    height: 42px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* section */
 
@@ -57,12 +67,40 @@ section{
     width: 100%;
 }
 .section_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 200px;
     width: 864px;
     border-radius: 20px;
     border: 1px solid rgba(176, 82, 181, 0.79);
     background: rgba(28, 19, 37, 0.80);
     backdrop-filter: blur(5px);
 }
-.section_div{
+h2{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+    line-height: 26px; /* 81.25% */
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+}
+.section_div1{
     display: flex;
+    column-gap: 24px;
+}
+.section_div2{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 464px;
+    height: 112px;
+    resize: none;
 }
