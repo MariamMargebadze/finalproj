@@ -20,16 +20,20 @@ header{
     display: flex;
     width: 560px;
     height: 48px;
-    /* padding-left: 16px; */
+    padding-left: 16px;
     justify-content: flex-end;
     align-items: center;
-    /* gap: 303px; */
+    gap: 303px;
     background-color: transparent;
     outline: none;
     border: none;
     border-radius: 8px;
     border: 1px solid rgba(176, 82, 181, 0.79);
     box-shadow: 0px -2px 5px 0px #F1ACEE;
+}
+.header_div{
+    display: flex;
+    column-gap: 8px;
 }
 .search_button{
     display: flex;
@@ -40,9 +44,9 @@ header{
     padding: 16px;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 0px 8px 8px 0px;    
+    background: #B052B5;
     border: 1px solid rgba(176, 82, 181, 0.79);
-    /* background: rgba(28, 19, 37, 0.80); */
     backdrop-filter: blur(5px);
 }
 .login_button{
@@ -51,11 +55,27 @@ header{
     display: flex;
     width: 84px;
     height: 42px;
-    padding: 8px 16px;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 }
-
+.cart{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F30AEA;
+    color: #FFFFFF;
+}
 /* section */
 
 section{
@@ -109,7 +129,6 @@ h2{
     color: #B052B5;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     
@@ -136,7 +155,6 @@ p{
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
@@ -157,9 +175,12 @@ textarea{
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+}
+.checkbox_div{
+    display: flex;
+    column-gap: 8px;
 }
 .checkbox{
     display: flex;
@@ -183,7 +204,20 @@ textarea{
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.sendbutton{
+    display: flex;
+    width: 464px;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #F30AEA;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
     line-height: 26px; /* 162.5% */
 }
