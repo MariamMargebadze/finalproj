@@ -41,28 +41,34 @@
 
                 
 
-                <div class="section_div2">
+                <div>
                     <p>I have a delivery question about my order</p>
-                    <div>
-                        <input class="radioinput" type="radio" id="first" value="noreceive" name="question">
-                    <label class="radio" for="first">I did not receive my order</label>
+                    <div class="section_div2">
+                        <div class="radio_div">
+                            <input class="radioinput" type="radio" id="first" value="noreceive" name="question">
+                        <label class="radio" for="first">I did not receive my order</label>
+                        </div>
+                        <div class="radio_div">
+                            <input class="radioinput" type="radio" id="second" value="incorrect" name="question">
+                        <label class="radio" for="second">My order is incorrect or arrived damaged</label>
+                        </div>
+                        <div class="radio_div">
+                            <input class="radioinput" type="radio" id="third" value="cancel" name="question">
+                        <label class="radio" for="third">Cancel my order</label>
+                        </div>
+                        <div class="radio_div">
+                            <input class="radioinput" type="radio" id="fourth" value="change" name="question">
+                        <label class="radio" for="fourth">Change my shipping address</label>
+                        </div>
                     </div>
-                    <div>
-                        <input class="radioinput" type="radio" id="second" value="incorrect" name="question">
-                    <label class="radio" for="second">My order is incorrect or arrived damaged</label>
-                    </div>
-                    <div>
-                        <input class="radioinput" type="radio" id="third" value="cancel" name="question">
-                    <label class="radio" for="third">Cancel my order</label>
-                    </div>
-                    <div>
-                        <input class="radioinput" type="radio" id="fourth" value="change" name="question">
-                    <label class="radio" for="fourth">Change my shipping address</label>
-                    </div>
+
                 </div>
 
                 <div class="textarea_div">
-                    <label class="textarea_title" for="text">Please provide more details below.</label>
+                    <div class="textarea_title">
+                        <label class="textarea_title" for="text">Please provide more details below.</label>
+                    </div>
+
 
                     <textarea name="TEXT" id="text" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
