@@ -90,9 +90,19 @@ h2{
     letter-spacing: 4px;
     margin-bottom: 80px;
 }
+.box{
+    width: 220px;
+    padding: 11px 149px 11px 22px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+}
 .section_div1{
     display: flex;
     column-gap: 24px;
+
 }
 .section_div2{
     display: flex;
