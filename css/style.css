@@ -102,15 +102,88 @@ h2{
 .section_div1{
     display: flex;
     column-gap: 24px;
+    margin-bottom: 16px;
 
 }
-.section_div2{
-    display: flex;
-    flex-direction: column;
-}
+.radio{
+    color: #B052B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    
+    }
+    .radioinput{
+        appearance: none;
+        display: flex;
+        width: 24px;
+        height: 24px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid rgba(243, 10, 234, 0.71);
+    }
+    .radioinput:checked::before{
+        content:"\f111"; 
+        font-family: "Font Awesome 6 free";
+        border-radius: 50px;
+        background-color: rgba(243, 10, 234, 0.71);
+    }
 
+p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 textarea{
     width: 464px;
     height: 112px;
     resize: none;
+    display: flex;
+    width: 464px;
+    height: 112px;
+    padding: 11px 370px 75px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+}
+.textarea_title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.checkbox{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 3.997px 3.997px 4px 4px;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    border-radius: 4px;
+    border: 2px solid #F30AEA;
+}
+.checkbox:checked::before{
+    content: "\f077";
+    font-family: "Font Awesome 6 free";
+    width: 16px;
+    height: 16px;
+    transform: rotate(-179.989deg);
+}
+.checkbox_label{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 }
