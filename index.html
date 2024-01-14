@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/3421428d97.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -13,89 +14,200 @@
 </head>
 <body>
     <div class="container">
-
         <!-- header -->
-
         <header>
-            <a href=""><img src="images/logo plant.svg" alt="">
+            <i class="fa-solid fa-bars burger"></i>
+            <i class="fa-solid fa-xmark xmark"></i>
+
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li class="header_li"><a class="header_link active" href="index.html">Home</a></li>
+                    <li class="header_li"><a class="header_link" href="artworks.html">Artworks</a></li>
+                    <li class="header_li"><a class="header_link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="logo" href="index.html">
+                <img src="images/Earthly.png" alt="">
+                <img src="images/Artisry.png" alt="">
             </a>
-            <form action="" class="header_search">
-                <input class="search_bar" type="search" placeholder="What are you looking for?" name="submit" >
-                <button class="search_button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></i></button>
-
-                <button class="search_button2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></i></button>
-            </form>
-            <div class="header_div">
-                <button class="login_button">LOG IN </button>
-                
-                <button class="user_icon"><i class="fa-solid fa-user"></i></button>
-
-                <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="signin_div">
+                <a class="signin" href=""><p>Sign In</p></a>
+                <a href=""><i class="fa-solid fa-arrow-right-to-bracket signinicon"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
         </header>
 
-        <!-- section -->
+        <!-- index_section1 -->
 
-        <section>
-            <form class="section_form" action="">
-                <h2>CONTACT US</h2>
-                <div class="section_div1">
-                    <input class="box" type="name" placeholder="Name">
-                    <input class="box" type="email" placeholder="Email">
-                </div>
+        <section class="index_section1">
+            <div class="index_div">
+                <h2 class="index_title">Earth, Water, Air and Fire</h2>
+                <a href="">
+                    <button class="index_button">Shop Now</button>
+                </a>
+            </div>
+        </section>
+        <!-- index_section2 -->
 
-                <!-- radio -->
+        <section class="index_section2">
+            <div class="index_section2_div">
+                <article class="index_section2_article">
+                    <div class="index_imgbutton">
+                        <img class="index_art" src="images/img1.png" alt="">
+                        <a href=""class="index_button2">
+                            <button class="index_button3">Pottery Classes</button>
+                        </a>
+                    </div>
+                </article>
+                <article class="index_section2_article">                    
+                    <div class="index_imgbutton">
+                        <img class="index_art" src="images/img2.png" alt="">
+                        <a href="" class="index_button2">
+                            <button class="index_button3">Design Process</button>
+                        </a>
+                    </div>
+                </article>
+                <article class="index_section2_article">                    
+                    <div class="index_imgbutton">
+                        <img class="index_art" src="images/img3.png" alt="">
+                        <a href="" class="index_button2">
+                            <button class="index_button3">Gift Pottery</button>
+                        </a>
+                    </div>
+                </article>
+                <article class="index_section2_article">                    
+                    <div class="index_imgbutton">
+                        <img class="index_art" src="images/img4.png" alt="">
+                        <a href="" class="index_button2">
+                            <button class="index_button3">Ceramic Painting</button>
+                        </a>
+                    </div>
+                </article>
+            </div>
 
+        </section>
+
+        <!-- index_section3 -->
+
+        <section class="index_section3">
+
+            <h2 class="index_section3_title">Latest Products</h2>
+
+        <div class="index_div_articles">
                 
-
+            <article class="index_cards">
+                <img class="card_img" src="images/late1.png" alt="">
                 <div>
-                    <p>I have a delivery question about my order</p>
-                    <div class="section_div2">
-                        <div class="radio_div">
-                            <input class="radioinput" type="radio" id="first" value="noreceive" name="question">
-                        <label class="radio" for="first">I did not receive my order</label>
-                        </div>
-                        <div class="radio_div">
-                            <input class="radioinput" type="radio" id="second" value="incorrect" name="question">
-                        <label class="radio" for="second">My order is incorrect or arrived damaged</label>
-                        </div>
-                        <div class="radio_div">
-                            <input class="radioinput" type="radio" id="third" value="cancel" name="question">
-                        <label class="radio" for="third">Cancel my order</label>
-                        </div>
-                        <div class="radio_div">
-                            <input class="radioinput" type="radio" id="fourth" value="change" name="question">
-                        <label class="radio" for="fourth">Change my shipping address</label>
-                        </div>
+                    <p class="product_title">product title</p>
+                    <div class="price_bar">
+                        <p class="index_price">$48.57</p>
+                        <button class="price_button">ADD</button>
                     </div>
 
-                    <!-- textarea -->
-
                 </div>
-
-                <div class="textarea_div">
-                    <div class="textarea_title1">
-                        <label class="textarea_title2" for="text">Please provide more details below.</label>
+            </article>
+            <article class="index_cards">
+                <img class="card_img" src="images/late2.png" alt="">
+                <div>
+                    <p class="product_title">product title</p>
+                    <div class="price_bar">
+                        <p class="index_price">$48.57</p>
+                        <button class="price_button">ADD</button>
                     </div>
-                        <textarea class="textarea" name="TEXT" id="text" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
-
-
-                <div class="checkbox_div">
-                    <input class="checkbox" id="checkbox" type="checkbox">
-                    <label class="checkbox_label" for="checkbox">I want to receive the newsletter </label>
+            </article>
+            <article class="index_cards"> 
+                <img class="card_img" src="images/late3.png" alt="">
+                <div >
+                    <p class="product_title">product title</p>
+                    <div class="price_bar">
+                        <p class="index_price">$48.57</p>
+                        <button class="price_button">ADD</button>
+                    </div>
                 </div>
+            </article>
+            <article class="index_cards">
+                <img class="card_img" src="images/late4.png" alt="">
+                <div>
+                    <p class="product_title">product title</p>
+                    <div class="price_bar">
+                        <p class="index_price">$48.57</p>
+                        <button class="price_button">ADD</button>
+                    </div>
+                </div>
+            </article>
+        </div>
 
+        </section>
 
+        <!-- index_section4 -->
 
-                <button class="sendbutton" name="SEND">SEND</button>
-            </form>
+        <section class="index_section4">
 
+            <div class="section4_div">
+                    <h2 class="section4_title">Subscribe to Newsletter</h2>
+                    <form action="" class="section4_search">
+                        <input placeholder="Email Address" class="section4_search_bar" type="email" name="submit">
+
+                        <button class="section4_search_button" type="submit">SUBSCRIBE</button>
+                    </form>
+            </div>
 
         </section>
 
 
+        <!-- footer -->
 
+
+
+        <footer>
+            <div class="footer_div">
+                <div class="footer_help">
+                    <h2 class="footer_p">Help</h2>
+                    <nav>
+                        <ul class="footer_ul">
+                            <li ><a class="help_a top" href="">Help Centre</a></li>
+                            <li ><a class="help_a" href="">Privacy Settings</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="footer_icons">
+                    <a  href="https://www.youtube.com/" target="_blank"><img class="footer_socs" src="images/logos_youtube.svg" alt=""></a>
+                    <a class="footer_socs"class="footer_socs" href="https://www.instagram.com/" target="_blank"><img src="images/logos_instagram.svg" alt=""></a>
+                    <a class="footer_socs" href="https://www.facebook.com/" target="_blank"><img src="images/logos_facebook.svg" alt=""></a>
+                </div>
+
+
+
+            </div>
+
+            <a href="index.html"><img src="images/Logo.svg" alt=""></a>
+
+
+
+            <div class="footer_contact">
+                <div class="footer_div2">
+                    <a href="tel: +123 45 67  89" target="_blank">
+                        <i class="fa-solid fa-phone icon"></i>
+                    <a>
+                    <p class="footer_div_p">+123 45 67 89</p>
+                </div>
+                <div class="footer_div2 middle">
+                    <a href="mailto: example@mail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+                    <p class="footer_div_p">example@mail.com</p>
+                </div>
+                <div class="footer_div2">
+                    <a href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.794575,18z/data=!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?hl=en&entry=ttu" target="_blank">
+                        <i class="fa-solid fa-location-dot icon"></i>
+                    </a>
+                    <p class="footer_div_p">Rustaveli avenue, 30</p>
+                </div>
+
+            </div>
+
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
