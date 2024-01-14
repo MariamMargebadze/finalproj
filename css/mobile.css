@@ -1,0 +1,213 @@
+@media (max-width:688px){
+    footer{
+        flex-direction: column;
+        row-gap: 32px;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 123px;
+    }
+    .footer_div_p{
+        display: none;
+    }
+    .footer_contact{
+        flex-direction: row;
+    }
+    .footer_help{
+        text-align: center;
+        margin-top: 32px;
+    }
+}
+@media (max-width:640px){
+    .artworks_cover_title{
+        font-size: 32px;
+    }
+    .artworks_search{
+        width: 480px;
+    }
+    .index_section1{
+        height: 304px;
+    }
+
+}
+@media (max-width:620px){
+    .index_title{
+        font-size: 32px;
+    }
+    .artworks_search{
+        width: 408px;
+    }
+    .artworks_cover{
+        height: 500px;
+    }
+    .index_section4{
+        height: 320px;
+    }
+    .section4_search_bar{
+        width: 216px;
+    }
+    .section4_search_button{
+        width: 130px;
+        font-size: 16px;
+    }
+
+}
+@media (max-width:550px){
+    .form_container{
+        width: 432px;
+        height: 400px;
+    }
+    .contact_div1{
+        column-gap: 72px;
+    }
+    .name, .email{
+        width: 160px;
+        padding: 12px 116px 11px 8px;
+    }
+    .section4_title{
+        font-size: 32px;
+    }
+}
+@media (max-width:540px){
+    .index_section3{
+        padding-left: 20px;
+    }
+}
+@media (max-width:490px){
+    header{
+        padding-inline: 20px;
+    }
+    .artworks_cover{
+        height: 400px;
+    }
+    .index_section3_title{
+        font-size: 32px;
+    }
+}
+@media (max-width:420px){
+    .index_section2{
+        padding: 64px 20px;
+    }
+    .index_section2_article,
+    .index_imgbutton{
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    .index_section4{
+        padding-inline: 20px;
+    }
+    .section4_title{
+        text-align: center;
+    }
+    .section4_search_bar{
+        width: 70%;
+    }
+    .signinicon{
+        display: block;
+    }
+    .signin{
+        display: none;
+    }
+    .signin_div{
+        column-gap: 2px;
+    }
+    .logo{
+        width: 70px;
+    }
+    .index_title{
+        font-size: 25px;
+    }
+    .index_button{
+        font-size: 14px;
+        width: 120px;
+    }
+    .index_section3_title{
+        font-size: 25px;
+    }
+    .section4_title{
+        font-size: 25px;
+    }
+    .artworks_cover{
+        height: 300px;
+    }
+    .artworks_container{
+        row-gap: 42px;
+    }
+    .artworks_search{
+        width: 300px;
+    }
+    .artworks_search_button{
+        font-size: 14px;
+    }
+    .artworks_shoptitle{
+        font-size: 15px;
+    }
+    .artworks_cover_title{
+        font-size: 25px;
+    }
+    .artworks_shopsort{
+        font-size: 18px;
+        column-gap: 5px;
+        width: 100px;
+        padding: 6px 21px;
+    }
+    .artworks_container_title{
+        column-gap: 20px;
+    }
+    .artworks_section2{
+        height: 2250px;
+    }
+    .cards{
+        width: 308px;
+    }
+    .artworks_pages{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .contact_section1{
+        height: 520px;
+        padding: 80px 10px 100px 10px;
+    }
+    .form_container{
+        width: 300px;
+        height: 400px;
+        padding: 20px 20px;
+
+    }
+    .contact_input{
+        width: 50px;
+        height: 40px;
+    }
+    .textarea{
+    padding: 8px 0px 71px 8px;
+    }
+    .name,
+    .email{
+        padding: 11px 8px 12px 8px;
+        width: 100%;
+    }
+    .contact_submit{
+        width: 100px;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    .contact_title1{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .contact_div1{
+        column-gap: 10px;
+    }
+    aside{
+        column-gap: 30px;
+    }
+
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
+
